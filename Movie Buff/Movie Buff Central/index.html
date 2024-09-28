@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Buff Central</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Movie Buff Central</h1>
+        <p>Your ultimate hub for all things movie magic!</p>
+    </header>
+
+    <section class="posters">
+        <h2>Featured Movies</h2>
+        <div class="poster-grid">
+            <img src="download (3).jpg" alt="Harry Potter" class="poster">
+            <img src="download (4).jpg" alt="Star Wars" class="poster">
+            <img src="download (5).jpeg" alt="Iron Man" class="poster">
+        </div>
+    </section>
+    <section class="bios">
+        <h2>Character Bios</h2>
+        <div class="bio-card">
+            <img src="download (3).jpg" alt="Harry Potter">
+            <h3>Harry Potter</h3>
+            <p>The Harry Potter film series follows the journey of a young wizard, Harry Potter, as he confronts the dark wizard Lord Voldemort. Set in a magical world, it showcases themes of friendship, bravery, and the battle between good and evil.</p>
+        </div>
+        <div class="bio-card">
+            <img src="download (5).jpeg" alt="Iron Man">
+            <h3>Spider-Man</h3>
+            <p>Spider-Man has appeared in Hollywood films across three franchises: Sam Raimi's trilogy with Tobey Maguire, The Amazing Spider-Man series with Andrew Garfield, and the MCU with Tom Holland. Each series explores Peter Parker's journey as Spider-Man, battling iconic villains while balancing his personal life.</p>
+        </div>
+        
+    </section>
+
+
+
+    <section class="trailers">
+        <h2>Movie Trailers</h2>
+        <div class="video-container">
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6ZfuNTqbHE8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </section>
+    <body>
+    <section class="quote-section">
+            <h1>Quote of the Day</h1>
+            <!-- Where the quote will appear -->
+            <p id="quote"></p>
+        
+            <!-- Button to generate new quotes -->
+            <button onclick="displayRandomQuote()">New Quote</button>
+        
+            <script src="script.js"></script>
+        </body>
+
+        <section class="quiz">
+            <h2>Trivia Quiz</h2>
+            <div id="quiz"></div>
+            <button onclick="submitQuiz()">Submit Quiz</button>
+        </section>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
